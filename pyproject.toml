@@ -1,0 +1,23 @@
+[project]
+name = "practice"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "Shehroz Hanif", email = "161879996+ShehrozHanif@users.noreply.github.com" }
+]
+requires-python = ">=3.12"
+dependencies = [
+    "crewai[tools]>=0.102.0",
+]
+
+[project.scripts]
+practice = "practice:main"
+p1 = "practice.basic_flow:main"
+p2 = "practice.route:main"
+p3 = "practice.parallel_or:main"
+p4 = "practice.flow_and:main"
+p5 = "practice.orche:main"
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
