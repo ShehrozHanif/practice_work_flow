@@ -18,6 +18,8 @@ p2 = "practice.route:main"
 p3 = "practice.parallel_or:main"
 p4 = "practice.flow_and:main"
 p5 = "practice.orche:main"
+p6 = "practice.evalutor:main"
+
 [build-system]
 requires = ["hatchling"]
 build-backend = "hatchling.build"
